@@ -40,4 +40,8 @@ void loop()
   wheels_right_move(FORWARD, speed);
   wheels_left_move(FORWARD, speed);
   delay(100);
+  int fullSpeed = 200;
+  wheels_right_move(FORWARD, fullSpeed);
+  wheels_left_move(FORWARD, fullSpeed);
+  delay(100);
 }
